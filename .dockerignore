@@ -1,0 +1,22 @@
+# Ignora archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+
+# Ignora archivos de configuración de vsc
+.vscode/
+
+# Ignora archivos generados de Java
+*.class
+*.jar
+
+# Ignora los archivos de construcción de Docker
+Dockerfile
+.dockerignore
+
+# Ignora directorios de dependencias locales
+target/
+out/
+bin/
+
+# Ignora archivos y directorios inecesarios
+src/

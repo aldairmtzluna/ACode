@@ -8,8 +8,8 @@ public class Main extends Application {
     public void start(Stage stage) {
         Label label = new Label("¡Hola, te saluda ACode!");
         Scene scene = new Scene(label, 400, 200);
-        stage.setScene(scene);
         stage.setTitle("ACode");
+        stage.setScene(scene);
         stage.show();
     }
 
